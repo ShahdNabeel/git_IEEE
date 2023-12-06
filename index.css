@@ -1,0 +1,61 @@
+* {
+    background-color: #92bed6;
+    color: aliceblue;
+}
+
+nav {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding-left: 10px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: darkblue;
+}
+
+.left {
+
+    display: flex;
+}
+
+.btn {
+    margin-left: 73%;
+}
+
+.btn button {
+    border-radius: 10px;
+    width: 70px;
+    height: 25px;
+}
+.btn button:hover {
+    color: darkblue;
+}
+.all{
+    padding: 10%;
+    display: flex;
+}
+.container{
+    width: 50%;
+}
+.right{
+    float: right;
+}
+.right a{
+    display: block;
+}
+.sec{
+    float: left;
+    display: flex;
+}
+.sec div{
+    padding: 10px;
+}
